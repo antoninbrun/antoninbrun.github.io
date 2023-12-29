@@ -2,7 +2,7 @@
 layout: post
 title:  "Article title"
 date:   2023-08-28 22:21:59 +00:00
-image: /images/building.png
+image: /images/building.jpg
 categories: research
 author: "Antonin Brun"
 authors: "<strong>Antonin Brun</strong>, Burçin Becerik-Gerber"
