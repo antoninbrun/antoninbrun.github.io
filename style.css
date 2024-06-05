@@ -1,0 +1,254 @@
+/* Document styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	font-size: 100%; /*change to adapt with increasing screen size */ 
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    max-width: 864px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+picture {
+    border-radius: 12px
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    flex: 1;
+}
+
+.personal {
+    margin-left: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+    width: 240px;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 6px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.extra-links {
+    margin-top: .5em;
+    font-size: 0.9rem;
+}
+
+.pub-links {
+    white-space: nowrap;
+    border-bottom: 1px solid #0000;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+.contacts {
+    margin-top: .5em;
+}
+
+.contact-link {
+    white-space: nowrap;
+    border-bottom: 1px solid #0000;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    font-size: 1rem;
+}
+
+.email-link {
+    white-space: nowrap;
+    border-bottom: 1px solid #0000;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+    color: #000000;
+
+}
+
+li {
+    list-style: none;
+}
+
+/* icons and fonts */
+.far {
+    font-family: "Font Awesome 6 Free";
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.fas {
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+
+/* Wrapper */
+.wrapper {
+    margin: auto;
+}
+
+
+.body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Font styles and paragraphs */
+/* Main styles */
+.text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    font-size: 3.2rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 0.7rem;
+    padding-top: 1.4rem;
+}
+
+.section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 0.7rem;
+    padding-top: 1.4rem;
+}
+
+strong {
+    font-weight: 500;
+}
+
+/* higlights */
+a {
+    font-weight: inherit;
+    color: #3477ad;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #3477ad;
+    text-decoration: underline;
+    /* box-shadow: inset 0em -0.20em 0em 0px #8000ff30 */
+    transition: all .3s ease;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    transition: all .05s ease;
+    font-weight: 600;
+}
+
+/* decorations */
+.badge {
+    background-color: #8000ff80;
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 0.5rem;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rounded {
+    border-radius: .25rem;
+}
+
+.centred {
+    margin: 0 auto;
+}
+
+/* extra text */
+.badge_text {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+}
+
+.pub_title {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+}
+
+.pub_text {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+}
+
+/* Some animations for mobile adaptability*/ 
+/*
+@media (max-width: 1200px) {
+    
+    .body {
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+   
+    .body {
+        max-width: 800px;
+        margin: 0;
+    }
+}
+*/
+
+.ai {
+    font-family: 'Academicons';
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
