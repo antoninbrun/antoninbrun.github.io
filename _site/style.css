@@ -232,8 +232,9 @@ a:active {
     color: #000000;
 }
 
-/* Some animations for mobile adaptability*/ 
+/* Some animations for mobile adaptability */ 
 
+/* Formatting for smaller screen */
 @media (max-width: 700px) {
     .columns {
         flex-direction: column;
@@ -246,6 +247,7 @@ a:active {
 
     .personal {
         order: 1;
+        margin-left: 0;
     }
     
 }
