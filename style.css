@@ -61,10 +61,11 @@ img {
 
 .contact-link {
     white-space: nowrap;
-    border-bottom: 1px solid #0000;
+    border-bottom: 10px solid #0000;
     margin-right: 0.5em;
     margin-left: 0.5em;
     font-size: 1.2rem;
+    margin-bottom: 0.4rem;
 }
 
 .email-link {
