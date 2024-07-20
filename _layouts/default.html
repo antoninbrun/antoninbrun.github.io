@@ -2,48 +2,74 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-E00L9PT3V9');
-  </script>
-  <title>{{ site.name }}</title>
+        gtag('config', 'G-E00L9PT3V9');
+    </script>
+    <title>{{ site.name }}</title>
 
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
-  <meta name="author" content="{{ site.name }}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
-  <link rel="stylesheet" href="./style.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 
 <body>
+    <header class="page-header">
+        <nav class="content">
+            <a class="site-title" href="/">Antonin Brun</a>
+            <a href="#Publications">Publications</a>
+            <a href="documents/CV_Antonin_Brun_April_24.pdf">CV</a>
+            <span class="external">
+                <a rel="me" href="https://www.linkedin.com/in/antoninbrun"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+            </span>
+        </nav>
+    </header>
+
     <div class="content">
-        <div class="title">
-            Antonin Brun
-        </div>
-        <div class="section_title">
+        <h1 id="Antonin Brun"> 
+            Hi, I'm Anto!
+        </h1>
+        <br>
+        <!-- <h2 id="About">
             About me
-        </div>
-        <div class="columns">
-            <!-- description + interests -->
-            <div class="intro text">
-                I am a first-year civil engineering PhD student at <a class="highlight" href="https://www.i-lab.usc.edu/"> i-lab</a>, part of the <a class="highlight" href="https://viterbischool.usc.edu/"> Viterbi School of Engineering</a> at <a class="highlight" href="https://www.usc.edu/"> USC</a>, working on Human-Building Interaction. I am advised by <a class="highlight" href="https://www.i-lab.usc.edu/current-researchers"> Burçin Becerik-Gerber</a>.
+        </h2> -->
+        <div class="columns-intro">
+            
+            <div class="intro">
+                <p>
+                    I am a first-year civil engineering PhD student at <a class="highlight" href="https://www.i-lab.usc.edu/" target="_blank"> i-lab</a>, part of the <a class="highlight" href="https://viterbischool.usc.edu/" target="_blank"> Viterbi School of Engineering</a> at <a class="highlight" href="https://www.usc.edu/" target="_blank"> USC</a>, working on Human-Building Interaction. I am advised by <a class="highlight" href="https://www.i-lab.usc.edu/current-researchers" target="_blank"> Burçin Becerik-Gerber</a>.
+                </p>
+                
                 <br>
+
+                <p>
+                    I am passionate about occupant wellbeing, building energy efficiency, and occupant-centric design. Interdisciplinary by nature, my research draws from the fields of building science, human-computer interaction, and cognitive science. I aim to explore <strong>intelligent and responsive architectural spaces</strong> that support the needs of a building and its occupants, as well as <strong>interactive tools that allow occupants to connect with their spaces</strong>.
+                </p>
+                
+                <!-- I am passionate about occupant wellbeing, building energy efficiency, and occupant-centric design. My research draws from the fields of building science, human-computer interaction, and psychology, and aims to explore intelligent and responsive architectural spaces that support the needs of a building and its occupants, and allows occupants to further connect with their architectural spaces. -->
+                <!-- <br>
                 <br>
-                I am passionate about wellbeing in the built environment, building energy efficiency, and intelligent occupant-centred design.
+                I have an MS in Civil and Environmental Engineering (focus in Sustainable Design and Construction) from <a class="highlight" href="https://cee.stanford.edu/academics-admission/graduate-degrees/ms-programs/sustainable-design-construction-sdc"> Stanford University</a> where I was a graduate researcher for <a class="highlight" href="https://engineering.stanford.edu/people/catherine-gorle"> Catherine Gorlé</a> and a public speaking teaching assistant for <a class="highlight" href="https://engineering.stanford.edu/spotlight/matt-vassar"> Matt Vassar</a> (<a class="highlight" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=ENGR%20103:%20Public%20Speaking&academicYear=20162017">ENGR103/203</a>). I also have a B.Eng. in Bioresource Engineering from <a class="highlight" href="https://www.mcgill.ca/bioeng/"> McGill University</a>. -->
                 <br>
-                <br>
-                I have an MS in Civil and Environmental Engineering (focus in Sustainable Design and Construction) from <a class="highlight" href="https://cee.stanford.edu/academics-admission/graduate-degrees/ms-programs/sustainable-design-construction-sdc"> Stanford University</a> where I was a graduate researcher for <a class="highlight" href="https://engineering.stanford.edu/people/catherine-gorle"> Catherine Gorlé</a> and a public speaking teaching assistant for <a class="highlight" href="https://engineering.stanford.edu/spotlight/matt-vassar"> Matt Vassar</a> (<a class="highlight" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=ENGR%20103:%20Public%20Speaking&academicYear=20162017">ENGR103/203</a>). I also have a B.Eng. in Bioresource Engineering from <a class="highlight" href="https://www.mcgill.ca/bioeng/"> McGill University</a>.
+                
+
+
             </div>
 
             <!-- Profile picture and other info -->
@@ -52,133 +78,127 @@
                     <img src="images/anto_headshot.png" alt="Antonin Brun">
                 </picture>
                 <!-- Modify to add link to cv, linkedin, and email -->
-                <div class="contacts text"> 
-                    <div class="email-link"> 
-                        <a href="mailto:abrun@usc.edu" style="color: #000000;">abrun[at]usc[dot]edu</a>
+                <br>
+                <br>
+
+                <div class="contacts text">
+                    <div class="contact-link">
+                        <a href="mailto:abrun@usc.edu">abrun@usc.edu</a>
+                        
                     </div>
-                    
-                    <li>
-                        <a class="contact-link" href="https://www.linkedin.com/in/antoninbrun">
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    <!-- <div class="contact-link">
+                        <a href="https://www.linkedin.com/in/antoninbrun" target="_blank">
+                            <i class="fab fa-linkedin"></i>
                             LinkedIn
                         </a>
+                    </div> -->
 
-                        <a class="contact-link" href="https://www.linkedin.com/in/antoninbrun">
-                            <!-- <i class="fas fa-fw fa-graduation-cap"></i> -->
-                            <i class="ai ai-google-scholar"></i>
-                            Google Scholar
+                    <!-- <div class="email-link"> 
+                        <a href="mailto:abrun@usc.edu" style="color: #000000;">abrun[at]usc[dot]edu</a>
+                    </div> -->
+                    <!-- <div class="contact-link">
+                        <a class="contact-link" href="https://www.linkedin.com/in/antoninbrun" target="_blank">
+                            <i class="fab fa-linkedin"></i>
                         </a>
-                    </li>
-                    <li>
-                        <a class="contact-link" href="/_documents/CV_Antonin_Brun_April_24.pdf">
-                            <i class="fa-file-pdf far" aria-hidden="true"> </i>
-                            CV
+                        |
+                        <a class="contact-link" href="https://www.linkedin.com/in/antoninbrun" target="_blank">
+                            
+                            <i class="ai ai-google-scholar-square ai-1x"></i>
                         </a>
-                        
-                    </li>
-                    <!-- <li>
-                        <a class="contact-link" href="www.linkedin.com/in/antoninbrun">
-                            <i class="fas fa-envelope" aria-hidden="true"></i>
-                            Email
+                    </div> -->
+                    
+                    <div class="contact-link">
+                        <a href="documents/CV_Antonin_Brun_April_24.pdf" target="_blank">
+                            <!-- <i class="fa-file-pdf far" aria-hidden="true"> </i> -->
+                            Curriculum Vitae
                         </a>
-                    </li> -->             
+                    </div>         
                 </div>
             </div>
-        </div>
-
-        <br>
-
-        <div class="section_title">
-            Publications
-        </div>
-
-        <!-- Jekyll dynamic section for publications -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> 
-            {% for post in site.posts %}
-            {% for cat in post.categories %}
-            {% if cat == 'research' %}
-            <tr>
-                <td style="padding-right:2.5%; padding-left:2.5%; width:25%; vertical-align:middle; min-width:120px">
-                    {% if post.image %}
-                    <img src="/tn{{post.image}}" alt="project image" style="display: block; margin: 0 auto; width: auto; height: auto; max-width: 100%;" />
-                    {% else %}
-                        <div class="badge rounded badge_text"> 
-                            {{post.abbr}}
-                        </div>
-                    {% endif %}
-                </td>
-                <td style="padding:2.5%;width:75%;vertical-align:middle">
-                    <div class="pub_title">
-                      {{post.title}}
-                    </div>
-                    <br>
-                    <div class="pub_text">
-                      {{post.authors}}
-    
-                    <br>
-                    <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-                    <br>
-
-                    <div class="extra-links">  
-                        <!-- PDF -->
-                        {% if post.pdf %}
-                        <a class="pub-links" href="{{post.pdf}}">
-                            <i class="fa-file-pdf far" aria-hidden="true"> </i>
-                            PDF
-                        </a>
-                        {% endif %}
-
-                        <!-- website or project link -->
-                        {% if post.website %}
-                        <a class="pub-links" href="{{post.website}}">
-                            <i class="fas fa-link" aria-hidden="true"> </i>
-                            Project
-                        </a>
-                        {% endif %}
-                        
-                        <!-- DOI -->
-                        {% if post.DOI %}
-                        <a class="pub-links" href="{{post.DOI}}">
-                            <i class="fas fa-book" aria-hidden="true"> </i>
-                            {{post.DOI}}
-                        </a>
-                        {% endif %}
-
-                        <!-- arXiv or journal -->
-                        {% if post.arXiv %}
-                        <a class="pub-links" href="{{post.arXiv}}">
-                            <i class="fas fa-archive" aria-hidden="true"> </i>
-                            {{post.arXiv}}
-                        </a>
-                        {% endif %}
-                    </div>
-
-                    <p></p>
-                    <br>
-                    {{ post.excerpt }}
-                    </div>
-                </td>
-            </tr>
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
-        </table>
-
-        <br>
-        <br>
-
-        <!-- Acknowledgements -->
-        <p style="text-align:center;font-size:small;">
             
-            Adapted from <a style="font-size:small;" class="highlight" href="https://leonidk.com/">Leonid Keselman's fork</a> of <a style="font-size:small;" class="highlight" href="https://jonbarron.info">John Barron's website</a>.
+        </div>
 
-            <br>
-            <br>
-            Antonin Brun 2024.
-            <br>
+        <p>
+            I have a MS in Civil and Environmental Engineering (focus in Sustainable Design and Construction) from <a class="highlight" href="https://cee.stanford.edu/academics-admission/graduate-degrees/ms-programs/sustainable-design-construction-sdc" target="_blank"> Stanford University</a> where I was a graduate researcher for <a class="highlight" href="https://engineering.stanford.edu/people/catherine-gorle" target="_blank"> Catherine Gorlé</a>. I also have a B.Eng. in Bioresource Engineering from <a class="highlight" href="https://www.mcgill.ca/bioeng/" target="_blank"> McGill University</a>.
         </p>
         <br>
+
+        <h2 id="Publications">
+            Publications
+        </h2>
+
+        {% for post in site.posts %}
+            {% for cat in post.categories %}
+                {% if cat == 'research' %}
+                <div class="columns-publications">
+                    <div class="image-container">
+                        {% if post.image %}
+                        <img src="/tn{{post.image}}" alt="project image" />
+                        {% else %}
+                        <div class="badge rounded badge_text">{{post.abbr}}</div>
+                        {% endif %}
+                    </div>
+
+                    <div class="text-container">
+                        <div class="pub_title">{{post.title}}</div>
+                        <div class="pub_text">
+                            {{post.authors}}.
+                            <br>
+                            <em>{{post.venue}}, {{ post.date | date: "%Y" }}</em>
+                        </div>
+                        <div class="extra-links">
+                            {% if post.pdf %}
+                                <a class="pub-links" href="{{post.pdf}}">
+                                    <i class="fa-file-pdf far" aria-hidden="true"></i> PDF
+                                </a>
+                            {% endif %}
+                            {% if post.website %}
+                                <a class="pub-links" href="{{post.website}}">
+                                    <i class="fas fa-link" aria-hidden="true"></i> Project
+                                </a>
+                            {% endif %}
+                            {% if post.DOI %}
+                                <a class="pub-links" href="{{post.DOI}}">
+                                    <i class="fas fa-book" aria-hidden="true"></i> {{post.DOI}}
+                                </a>
+                            {% endif %}
+                            {% if post.arXiv %}
+                                <a class="pub-links" href="{{post.arXiv}}">
+                                    <i class="fas fa-archive" aria-hidden="true"></i> {{post.arXiv}}
+                                </a>
+                            {% endif %}
+                        </div>
+
+                        <div class="pub_description">
+                            {{post.description}}
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        <br> 
+        <br>
+
     </div>
+
+    <footer>
+        <div class="content">
+            <p style="text-align:center;font-size:small;font-weight: 400; ">
+        
+                Adapted from <a style="font-size:small; " href="https://leonidk.com/">Leonid Keselman's fork</a> of <a style="font-size:small; " href="https://jonbarron.info">John Barron's website</a>. I was also inspired by <a style="font-size:small; " href="https://www.domoritz.de/">Dominik Moritz's website</a> (amongst others) to design this website.
+                <br>
+                <br>
+                Antonin Brun, July 2024.
+            </p>
+        </div>
+        
+        
+    </footer>
+        
+    
 </body>
 
 </html>

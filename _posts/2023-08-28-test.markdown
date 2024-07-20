@@ -2,16 +2,16 @@
 layout: post
 title:  "Towards Unveiling the Interplay of Occupant Health, Comfort and Building Energy Consumption"
 date:   2024-05-31 22:21:59 +00:00
-image: /images/building.png
+image: 
 abbr: "i3CE"
 categories: research
 author: "Antonin Brun"
 authors: "<strong>Antonin Brun</strong>, Mohamad Awada, Burçin Becerik-Gerber"
 venue: "ASCE International Conference on
 Computing in Civil Engineering"
-pdf: test  
+pdf: pdfs/i3CE 2024 AB.pdf
 website: 
 DOI: 
-arXiv: arXiv.link
+arXiv:
+description: Here goes a brief overview of the paper and its contents.
 ---
-Here goes a brief overview of the paper and its contents.
