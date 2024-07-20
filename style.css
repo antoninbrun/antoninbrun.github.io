@@ -16,10 +16,8 @@ html {
     --grey: #424242;
     --light-grey: #808080; 
     --cardinal-red: #990000;
-    --rich-black: #0C0C0C;
+    /* --rich-black: #0C0C0C; */
     /* --bice-blue: #2F6C9D; */
-    --bice-blue: #990000;
-    --champagne-pink: #EDD3C4;
 }
 
 .content {
@@ -185,6 +183,7 @@ nav .site-title:hover {
 
 .page-header {
     border-top: 6px solid var(--cardinal-red);
+    /* border-top: 6px solid #FFCC00; */
     margin-bottom: 32px;
     padding-top: 6px
 }
@@ -335,7 +334,7 @@ strong {
 /* higlights */
 a {
     font-weight: inherit;
-    color: var(--bice-blue);
+    color: var(--cardinal-red);
     opacity: 1;
     /* color: inherit; */
     /* box-shadow: inset 0em -0.67em 0em 0px #3477ad30; */
@@ -352,7 +351,7 @@ a:hover, a:focus {
 }
 
 a:active {
-    color: var(--bice-blue);
+    color: var(--cardinal-red);
     opacity: 1;
     transition: all .05s ease;
     font-weight: 600;
@@ -360,7 +359,8 @@ a:active {
 
 /* decorations */
 .badge {
-    background-color: var(--bice-blue);
+    /* background-color: var(--cardinal-red); */
+    background-color: var(--grey);
     /* background: linear-gradient(0deg, var(--rich-black), transparent),
                 linear-gradient(50deg, #6A7B76, transparent),
                 linear-gradient(200deg, #617073, transparent),
