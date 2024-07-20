@@ -3,7 +3,7 @@ layout: post
 title:  "Toward Occupant-Centric Virtual Agents: Office Workers’ Perspectives on Technological Design and Implementation"
 date:   2024-05-15 22:21:59 +00:00
 image: 
-abbr: "EG-ICE"
+abbr: "EG-ICE 2024"
 categories: research
 author: "Antonin Brun"
 authors: "<strong>Antonin Brun</strong>, Burçin Becerik-Gerber"
@@ -12,5 +12,5 @@ pdf: pdfs/Full paper EG-ICE 2024 AB.pdf
 website: 
 DOI: 
 arXiv: 
-description: Through a set of focus groups, we identified ways office workers benefit from their data and how they relate with respect to their stress. We highlight design recommendations for occupant-centric virtual agents to support office workers in understanding their data and connecting with their archictectural space.
+description: In this preliminary study, we identify ways office workers benefit from and how they relate to their stress data. We highlight design recommendations for occupant-centric virtual agents to support office workers in understanding their data and connecting with their archictectural space.
 ---

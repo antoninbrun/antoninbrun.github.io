@@ -3,7 +3,7 @@ layout: post
 title:  "Towards Unveiling the Interplay of Occupant Health, Comfort and Building Energy Consumption"
 date:   2024-05-31 22:21:59 +00:00
 image: 
-abbr: "i3CE"
+abbr: "i3CE 2024"
 categories: research
 author: "Antonin Brun"
 authors: "<strong>Antonin Brun</strong>, Mohamad Awada, Burçin Becerik-Gerber"
@@ -13,5 +13,5 @@ pdf: pdfs/i3CE 2024 AB.pdf
 website: 
 DOI: 
 arXiv:
-description: Here goes a brief overview of the paper and its contents.
+description: In this preliminary study, we explore the energy implications of meeting healthy and comfortable setpoints for office workers. We discuss findings from one participant.
 ---
