@@ -403,6 +403,15 @@ a:active {
         margin-left: 0;
     }
     
+    .image-container {
+        display: none;
+    }
+
+    .text-container {
+        width: 100%; 
+        padding: 0%;
+    }
+    
 }
 
 
